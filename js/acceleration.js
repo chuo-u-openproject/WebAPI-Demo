@@ -1,7 +1,5 @@
-var flag = 0;
-
 document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener("devicemotion", deviceMotion)
+    window.addEventListener("devicemotion", deviceMotion);
     window.addEventListener("deviceorientation", deviceOrientation);
 });
 

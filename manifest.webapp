@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "name": "WebAPI Demo",
+  "description": "Your new awesome Open Web App",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/mortar-16.png",
+    "48": "/img/icons/mortar-48.png",
+    "60": "/img/icons/mortar-60.png",
+    "128": "/img/icons/mortar-128.png"
+  },
+  "developer": {
+    "name": "CHUO-U-OpenProject",
+    "url": "http://v3.gitfab.org/chuo-u-openproject/7f58a6fe-2789-433d-b4a9-b0c0eff1919a"
+  },
+  "installs_allowed_from": ["*"],
+  "permissions": {
+        "geolocation": {},
+        "wifi-manage": {},
+        "time": {},
+        "power": {},
+        "camera": {}
+  },
+  "locales": {
+    "ja": {
+      "description": "各種WebAPIの動作確認デモアプリです。"
+    }
+  },
+  "default_locale": "en",
+  "type": "certified"
+}
